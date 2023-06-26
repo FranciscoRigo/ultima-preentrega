@@ -1,0 +1,213 @@
+/* style a la barra navegacion */
+.navbar{
+    background-color: green ;
+}
+.navbar-toggler {
+    border: none
+}
+.navbar-toggler i{
+    color: black;
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover{
+    color: aqua !important;
+}
+/* jumbotron style */
+.jumbotron{
+    background-image: url(./img/panadero.jpg);
+    background-size: cover;
+    background-color: center;
+    color: black;
+    text-shadow: 0 0 5px #333;
+    border-radius: 0;
+    margin-bottom: 0;
+    height: 350px;
+}
+.btn-warning{
+    background-color: aqua;
+}
+.btn-warning:hover{
+    background-color: green;
+}
+h2{
+    background-color: green;
+    color: #fff;
+    border-color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+}   
+/**/
+section{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    gap: 20px;
+}
+/*cards index / Home*/
+.card{
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border: 3px solid aqua;
+}
+.card__img{
+    height: 150px;
+    background-image: url(./img/cortando\ pasto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card__img1{
+    height: 150px;
+    background-image: url(./img/poda\ en\ altura.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card__img2{
+    height: 150px;
+    background-image: url(./img/tronco.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card__title{
+    text-align: center;
+    color: aqua;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.card__desc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.card__boton{
+    color: #fff;
+    text-decoration: none;
+    background-color: aqua;
+    text-shadow: 0 0 5px #000;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.card__boton:hover{
+    background-color: #000;
+}
+.card__boton--md{
+    background-color: rgb(0, 255, 26);
+    text-transform: uppercase black;
+}
+.card__img--img1{
+    background-image: url(img/cortando\ pasto.jpg);
+    border: 3px solid #fff;
+    height: 350px;
+}
+.card--md{
+    width: 50%;
+}
+/**/
+.relleno{
+    background-image: url(./img/celeste\ cielo.jpg);
+    background-size: cover;
+}
+.relleno form{
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #696969;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: inherit;
+}
+    
+.item{
+    background-image: url(./wood-g0cf98b1e4_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    border: 3px solid aqua;
+}
+.item1{
+    background-image: url(./logos/cencosud.jpeg);
+    background-size:
+}
+.item2{
+    background-image: url(./logos/coto.jpeg);
+    background-size:
+}
+.item3{
+    background-image: url(./logos/easy.jpeg);
+    background-size:
+}
+.item4{
+    background-image: url(./logos/novartis.jpeg);
+    background-size:
+}
+.item5{
+    background-image: url(./logos/sodexo.jpeg);
+    background-size:
+}
+.item6{
+    background-image: url(./logos/ypf.jpeg);
+    background-size: center
+}
+.item7{
+    background-image: url(./logos/quilmes.jpeg);
+    background-size:
+}
+.item8{
+    background-image: url(./logos/ypf.jpeg);
+    background-size:
+}
+.item9{
+    background-image: url(./logos/ypf.jpeg);
+    background-size:
+}
+/**/
+.servicio{
+    text-align: center;
+}
+
+/**/
+.form{
+    height: auto;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #696969;
+    padding: 0.5rem;
+    width: 100%;
+    background: #fff;
+}
+/* clases generales */
+.text-center{
+    text-align: center;
+    color: aqua;
+}
+/* Footer */
+.footer{
+    background-color: rgb(0, 128, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+.footer ul{
+    list-style: none;
+}
+footer i{
+    background-position: center;
+    color: aqua;
+    font-size: 50px;
+    letter-spacing: 50px;
+    margin-bottom: auto;
+}
+
