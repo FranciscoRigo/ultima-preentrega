@@ -1,6 +1,6 @@
 /* style a la barra navegacion */
 .navbar{
-    background-color: green ;
+    background-color: rgb(140, 156, 73) ;
 }
 .navbar-toggler {
     border: none
@@ -12,7 +12,7 @@
     color: black !important;
 }
 .nav-link:hover{
-    color: aqua !important;
+    color: rgb(224, 229, 220) !important;
 }
 /* jumbotron style */
 .jumbotron{
@@ -26,13 +26,13 @@
     height: 350px;
 }
 .btn-warning{
-    background-color: aqua;
+    background-color:rgb(179, 199, 168) ;
 }
 .btn-warning:hover{
-    background-color: green;
+    background-color:rgb(230, 238, 155) ;
 }
 h2{
-    background-color: green;
+    background-color: rgb(140, 156, 73);
     color: #fff;
     border-color: #000;
     text-align: center;
@@ -40,10 +40,11 @@ h2{
     margin-bottom: 0;
 }   
 /**/
+
 section{
     display: flex;
     justify-content: center;
-    background-color: green;
+    background-color: rgb(140, 156, 73);
     gap: 20px;
 }
 /*cards index / Home*/
@@ -52,7 +53,7 @@ section{
     background-color: #333;
     color: #fff;
     padding: 20px;
-    border: 3px solid aqua;
+    border: 3px solid rgb(179, 199, 168);
 }
 .card__img{
     height: 150px;
@@ -74,7 +75,7 @@ section{
 }
 .card__title{
     text-align: center;
-    color: aqua;
+    color: rgb(179, 199, 168);
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
@@ -89,7 +90,7 @@ section{
 .card__boton{
     color: #fff;
     text-decoration: none;
-    background-color: aqua;
+    background-color: rgb(179, 199, 168);
     text-shadow: 0 0 5px #000;
     width: 100%;
     display: block;
@@ -132,7 +133,7 @@ section{
     background-position: center;
     background-size: cover;
     height: 250px;
-    border: 3px solid aqua;
+    border: 3px solid rgb(179, 199, 168);
 }
 .item1{
     background-image: url(./logos/cencosud.jpeg);
@@ -190,11 +191,11 @@ section{
 /* clases generales */
 .text-center{
     text-align: center;
-    color: aqua;
+    color: rgb(179, 199, 168);
 }
 /* Footer */
 .footer{
-    background-color: rgb(0, 128, 0);
+    background-color:rgb(140, 156, 73) ;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -205,9 +206,9 @@ section{
 }
 footer i{
     background-position: center;
-    color: aqua;
-    font-size: 50px;
-    letter-spacing: 50px;
+    color: rgb(179, 199, 168);
+    font-size: 40px;
+    letter-spacing: 30px;
     margin-bottom: auto;
 }
 
