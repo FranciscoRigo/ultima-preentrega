@@ -116,7 +116,7 @@ h2 {
     }
 
     &--md{
-       width :100% ;  
+        width :100% ;  
     }
 }
 
@@ -125,14 +125,14 @@ h2 {
     background-size :cover ;
 
     form{
-      height:auto ;
-      margin:auto ;
-      border-radius :5px ;
-      font-size :100% ;
-      color:#696969 ;
-      padding:.5rem ;
-      width :100% ;
-      box-sizing :inherit ;
+        height:auto ;
+        margin:auto ;
+        border-radius :5px ;
+        font-size :100% ;
+        color:#696969 ;
+        padding:.5rem ;
+        width :100% ;
+        box-sizing :inherit ;
     }
 }
 
@@ -144,75 +144,75 @@ h2 {
     border :3px solid $color7 ;
 
     &1{
-       background-image:url(logos/cencosud.jpeg);
-       background-size:auto ;
+        background-image:url(logos/cencosud.jpeg);
+        background-size: auto ;
     }
     &2{
-       background-image:url(logos/coto.jpeg);
-       background-size:auto ;
+        background-image:url(logos/coto.jpeg);
+        background-size:auto ;
     }
     &3{
-       background-image:url(logos/easy.jpeg);
-       background-size:auto ;
+        background-image:url(logos/easy.jpeg);
+        background-size:auto ;
     }
     &4{
-       background-image:url(logos/novartis.jpeg);
-       background-size:auto ;
+        background-image:url(logos/novartis.jpeg);
+        background-size:auto ;
     }
     &5{
-       background-image:url(logos/sodexo.jpeg);
-       background-size:auto ;
+        background-image:url(logos/sodexo.jpeg);
+        background-size:auto ;
     }
     &6{
-       background-image:url(logos/ypf.jpeg);
-       background-size:center ;
+        background-image:url(logos/ypf.jpeg);
+        background-size:auto ;
     }
     &7{
-       background-image:url(logos/quilmes.jpeg);
-       background-size:center ;
+        background-image:url(logos/quilmes.jpeg);
+        background-size:auto ;
     }
     &8{
-       background-image:url(logos/granix.jpg);
-       background-size:center ;
+        background-image:url(logos/granix.jpg);
+        background-size:auto ;
     }
     &9{
-       background-image:url(logos/jumbo.jpg);
-       background-size:center ;
-   }
+        background-image:url(logos/jumbo.jpg);
+        background-size:auto;  
+    }
 
 }
 
 .servicio{
-   text-align:center ;  
+    text-align:center ;  
 }
 
 .form{
-   height:auto ;
-   margin:auto ;
-   border :1px solid #ddd ;
-   border-radius :5px ;
-   font-size :100% ;
-   color:#696969 ;
-   padding:.5rem ;
-   width :100% ;
-   box-sizing:border-box ;  
+    height:auto ;
+    margin:auto ;
+    border :1px solid #ddd ;
+    border-radius :5px ;
+    font-size :100% ;
+    color:#696969 ;
+    padding:.5rem ;
+    width :100% ;
+    box-sizing:border-box ;  
 }
 
 .text-center{
-   text-align:center ;
-   color:$color7 ;
+    text-align:center ;
+    color:$color7 ;
 }
 
 .footer{
-   background-color:$color2 ;
-   position:relative ;
-   bottom:0 ;
-   width:100% ;
-   padding:10px ;
+    background-color:$color2 ;
+    position:relative ;
+    bottom:0 ;
+    width:100% ;
+    padding:10px ;
 
-   ul{
-      list-style:none ;
-   }
+    ul{
+        list-style:none ;
+    }
 }
 
 footer i{
